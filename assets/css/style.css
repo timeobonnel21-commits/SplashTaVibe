@@ -32,10 +32,12 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: hidden;
 }
 
 .playlist {
   flex: 1;
+  overflow-y: scroll;
 }
 .playlist ul {
   list-style: none;
@@ -67,8 +69,13 @@ h1 {
     display: flex;
     gap: 10px;
     align-items: center;
-    background: aqua;
+      background: linear-gradient(
+    to right,
+    #f64f59,
+    #c471ed,
+    #12c2e9);
     border-radius: 100px;
+    margin-bottom: 10px;
 }
 
 .cover img {
@@ -76,11 +83,12 @@ h1 {
   height: 100px;
   width: 100px;
   border-radius: 100px;
+  filter: grayscale();
 }
 
 .content {
   font-size: 15px;
-  color: #333;
+  color: #f1f1f1;
 }
 
 .content h3 {
