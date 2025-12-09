@@ -1,39 +1,43 @@
-*{box-sizing: border-box;}
-html, body {margin: 0;padding: 0;height: 100%;}
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Glitch&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+html,
 body {
-    background: #333;
-    color: #f1f1f1;
-    height: 100dvh; /*dynamic viewport height */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 0 10px;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
 
-header {
-    border-bottom: 1px solid #f1f1f1;
+body {
+  background: #333;
+  color: #f1f1f1;
+  height: 100dvh; /*dynamic viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 0 10px;
 }
 
 main {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .playlist {
-    flex: 1;
+  flex: 1;
 }
-.playlist ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
+.playlist ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 h1 {
-    color: aqua;
-    text-align: center;
-    font-style: italic;
+  color: aqua;
+  text-align: center;
 }
 
 .cardaudio {
@@ -42,35 +46,33 @@ h1 {
     align-items: center;
     background: aqua;
     border-radius: 100px;
-    margin-bottom: 10px;
 }
 
 .cover img {
-    display: block;
-    height: 100px;
-    width: 100px;
-    border-radius: 100px;
+  display: block;
+  height: 100px;
+  width: 100px;
+  border-radius: 100px;
 }
 
 .content {
-    font-size: 15px;
-    color: #333;
+  font-size: 15px;
+  color: #333;
 }
 
 .content h3 {
-    margin: 0;
+  margin: 0;
 }
 
 .content p {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 audio {
-    width: 100%;
-} 
-
+  width: 100%;
+}
 
 footer {
-    text-align: center;
-    padding-bottom: 5px;
+  text-align: center;
+  padding-bottom: 5px;
 }
