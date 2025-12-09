@@ -42,6 +42,7 @@ h1 {
     align-items: center;
     background: aqua;
     border-radius: 100px;
+    margin-bottom: 10px;
 }
 
 .cover img {
