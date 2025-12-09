@@ -8,6 +8,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding: 0 10px;
 }
 
 main {
@@ -43,4 +44,27 @@ h1 {
     height: 100px;
     width: 100px;
     border-radius: 100px;
+}
+
+.content {
+    font-size: 15px;
+    color: #333;
+}
+
+.content h3 {
+    margin: 0;
+}
+
+.content p {
+    margin-bottom: 0;
+}
+
+audio {
+    width: 100%;
+} 
+
+
+footer {
+    text-align: center;
+    padding-bottom: 5px;
 }
