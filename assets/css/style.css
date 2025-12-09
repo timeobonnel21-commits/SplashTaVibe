@@ -12,7 +12,6 @@ body {
 
 main {
     flex: 1;
-    background: red;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -20,12 +19,27 @@ main {
 
 .playlist {
     flex: 1;
-    background: blue;
 }
-
+.playlist ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 h1 {
     color: aqua;
     text-align: center;
 }
 
+.cardaudio {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    background: aqua;
+    border-radius: 100px;
+}
 
+.cover img {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
