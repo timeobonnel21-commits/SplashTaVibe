@@ -11,6 +11,10 @@ body {
     padding: 0 10px;
 }
 
+header {
+    border-bottom: 1px solid #f1f1f1;
+}
+
 main {
     flex: 1;
     display: flex;
@@ -29,6 +33,7 @@ main {
 h1 {
     color: aqua;
     text-align: center;
+    font-style: italic;
 }
 
 .cardaudio {
