@@ -1,5 +1,6 @@
 *{box-sizing: border-box;}
 html, body {margin: 0;padding: 0;height: 100%;}
+
 body {
     background: #333;
     color: #f1f1f1;
@@ -7,6 +8,19 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+main {
+    flex: 1;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.playlist {
+    flex: 1;
+    background: blue;
 }
 
 h1 {
