@@ -10,14 +10,32 @@ const data = [
     src: `gims-parisiene.mp3`,
     category: `fun`,
     cover:
-      "https://img.static-af.com/transform/45cb9a13-b167-4842-8ea8-05d0cc7a4d04/",
+      "https://i.scdn.co/image/ab67616d0000b27393db7b33b63de6dc99a131ee",
   },
   {
     title: `MON BÉBÉ`,
     src: `monbebe.mp3`,
     category: `RAP`,
     cover:
-      "https://static.vecteezy.com/ti/vecteur-libre/t2/1312577-mignon-heureux-baby-holding-baby-milk-bottle-vectoriel.jpg",
+      "https://i.scdn.co/image/ab67616d0000b273deb7071c9722a7c10a26ed6b",
+  },
+  {
+    title: `QUEEN - Another One Bites the Dust`,
+    src: `queen.mp3`,
+    category: `remix`,
+    cover: "https://i.ytimg.com/vi/NVIbCvfkO3E/maxresdefault.jpg",
+  },
+    {
+    title: `Cyberpunk 2077`,
+    src: `cyberpunk 2077.mp3`,
+    category: `thechno`,
+    cover: "https://image.api.playstation.com/vulcan/ap/rnd/202008/0416/6Bo40lnWU0BhgrOUm7Cb6by3.png",
+  },
+    {
+    title: `R2-nuinart`,
+    src: `R2-ruinart.mp3`,
+    category: `RAP`,
+    cover: "https://cdn-images.dzcdn.net/images/cover/405f1c98886bd62846f7609df66ce1f2/0x1900-000000-80-0-0.jpg",
   },
 ];
 console.table(data);

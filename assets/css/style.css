@@ -84,12 +84,14 @@ h1 {
   height: 100px;
   width: 100px;
   border-radius: 100px;
-  filter: grayscale();
+  filter: grayscale(0);
+  object-fit: cover;
 }
 
 .content {
   font-size: 15px;
   color: #f1f1f1;
+  padding-right: 40px;
 }
 
 .content h3 {
