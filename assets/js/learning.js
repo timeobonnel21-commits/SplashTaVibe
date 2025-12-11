@@ -37,8 +37,8 @@ function hello(name) {
 hello(family[3]);
 hello(family[5]);
 
-function toto(){}
-const toto= ()=>{}
+function toto() {}
+const toto = () => {};
 
 family.forEach((user) => {
   console.log(`salut ${user}`);

@@ -25,22 +25,17 @@ body {
   font-style: normal;
 }
 .separator {
-    height: 1px;
+  height: 1px;
 }
 
 .linear-gradient {
-      background: -webkit-linear-gradient(
+  background: -webkit-linear-gradient(
     to right,
     #f64f59,
     #c471ed,
     #12c2e9
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #f64f59,
-    #c471ed,
-    #12c2e9
-  );
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
 }
 
 main {
@@ -64,29 +59,24 @@ h1 {
   color: aqua;
   text-align: center;
   background: #12c2e9;
-    background: -webkit-linear-gradient(
+  background: -webkit-linear-gradient(
     to right,
     #f64f59,
     #c471ed,
     #12c2e9
   ); /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(
-    to right,
-    #f64f59,
-    #c471ed,
-    #12c2e9
-  );
+  background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 3rem;
 }
 
 .cardaudio {
-    display: flex;
-    gap: 10px;
-    align-items: center;
-    border-radius: 100px;
-    margin-bottom: 10px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-radius: 100px;
+  margin-bottom: 10px;
 }
 
 .cover img {
