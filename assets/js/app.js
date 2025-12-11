@@ -39,7 +39,7 @@ const data = [
   },
   {
     title: `attenta`,
-    src: `Attantat.mp3`,
+    src: `Attentat.mp3`,
     category: `RAP fun`,
     cover: "https://i.scdn.co/image/ab67616d0000b273e7920f048947a2cb6371557a",
   },
