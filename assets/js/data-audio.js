@@ -55,4 +55,10 @@ export const data = [
     category: `ACID`,
     cover: "https://i.scdn.co/image/ab67616d0000b27337d8edae9f22963c480e8729",
   },
+    {
+    title: `Ma direction`,
+    src: `sextion.mp3`,
+    category: `RAP ancien`,
+    cover: "https://i.scdn.co/image/ab67616d0000b27381e6951f23e0a64449c9e975",
+  },
 ];
