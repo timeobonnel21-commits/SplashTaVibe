@@ -2,14 +2,13 @@ import { data } from "./data-audio.js";
 const year= new Date().getFullYear()
 document.querySelector("#year").textContent = year
 
-console.log (year)
 const version = "v.1.0.0";
 document.getElementById("version").textContent = version;
 
-const author = `timeo`;
-console.log(`welcome voici l'été: "citation de ${author} "`);
+const author = `Timéo`;
+console.log(`T'es bien curieux toi ! passes ton chemin, sinon je te hack. "citation de ${author} "`);
 
-console.table(data);
+// console.table(data);
 
 data.forEach((music) => {
   document.getElementById(`playlist`).innerHTML += `<li>
