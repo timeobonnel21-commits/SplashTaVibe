@@ -87,6 +87,19 @@ h1 {
   filter: grayscale(0);
   object-fit: cover;
 }
+.play img {
+  animation: play 4s linear infinite;
+  animation-play-state: running;
+}
+
+.paused img {
+  animation-play-state: paused;
+}
+@keyframes play {
+  to {
+    transform: rotate(360deg);
+  }
+}
 
 .content {
   font-size: 15px;

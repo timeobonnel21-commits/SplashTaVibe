@@ -85,10 +85,29 @@ document.querySelector("#title").addEventListener("click", () => {
   }
 });
 
+const audioPlayer = document.querySelector("audio");
+let currentCard = null;
+
 const dataLi = document.querySelectorAll("#playlist li");
-dataLi.forEach((audio, index) => {
-  audio.addEventListener("click", () => {
-    document.querySelector("audio").src = `./assets/audio/${data[index].src}`;
-    document.querySelector("audio").play();
+dataLi.forEach((card, index) => {
+  card.classList.remove("play");
+  card.addEventListener("click", () => {
+    dataLi.forEach((item) => item.classList.remove("play", "paused")); // only keep clicked card active
+    card.classList.add("play");
+    currentCard = card;
+    audioPlayer.src = `./assets/audio/${data[index].src}`;
+    audioPlayer.play();
   });
+});
+
+audioPlayer.addEventListener("pause", () => {
+  if (currentCard) {
+    currentCard.classList.add("paused");
+  }
+});
+
+audioPlayer.addEventListener("play", () => {
+  if (currentCard) {
+    currentCard.classList.remove("paused");
+  }
 });
