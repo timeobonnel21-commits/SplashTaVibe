@@ -123,3 +123,38 @@ footer {
   text-align: center;
   padding-bottom: 5px;
 }
+
+/* Simple site navigation placed between audio and footer */
+.site-nav {
+  display: flex;
+  justify-content: center;
+  padding: 10px 8px;
+  margin: 12px 0;
+  background: rgba(255, 255, 255, 0.02);
+  border-radius: 10px;
+}
+.site-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 14px;
+  align-items: center;
+}
+.site-nav a {
+  color: #f1f1f1;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  font-weight: 500;
+  transition: transform 180ms ease, background 180ms ease, box-shadow 180ms ease;
+}
+.site-nav a:hover {
+  transform: translateY(-3px);
+  background: linear-gradient(90deg, rgba(246,79,89,0.12), rgba(196,113,237,0.12));
+  box-shadow: 0 8px 18px rgba(0,0,0,0.35);
+}
+.site-nav a.active {
+  background: linear-gradient(90deg, rgba(246,79,89,0.14), rgba(18,194,233,0.06));
+  box-shadow: 0 6px 14px rgba(0,0,0,0.28);
+}
