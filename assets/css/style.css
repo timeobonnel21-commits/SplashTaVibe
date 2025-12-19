@@ -128,8 +128,8 @@ footer {
 .site-nav {
   display: flex;
   justify-content: center;
-  padding: 10px 8px;
-  margin: 12px 0;
+  padding: 5px 5px;
+  margin: 5px 0;
   background: rgba(255, 255, 255, 0.02);
   border-radius: 10px;
 }
