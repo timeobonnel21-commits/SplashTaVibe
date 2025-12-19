@@ -149,12 +149,39 @@ footer {
   font-weight: 500;
   transition: transform 180ms ease, background 180ms ease, box-shadow 180ms ease;
 }
+.site-nav a .nav-label {
+  display: inline;
+  margin-left: 6px;
+  font-size: 0.95rem;
+}
 .site-nav a:hover {
   transform: translateY(-3px);
-  background: linear-gradient(90deg, rgba(246,79,89,0.12), rgba(196,113,237,0.12));
-  box-shadow: 0 8px 18px rgba(0,0,0,0.35);
+  background: linear-gradient(
+    90deg,
+    rgba(246, 79, 89, 0.12),
+    rgba(196, 113, 237, 0.12)
+  );
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.35);
 }
 .site-nav a.active {
-  background: linear-gradient(90deg, rgba(246,79,89,0.14), rgba(18,194,233,0.06));
-  box-shadow: 0 6px 14px rgba(0,0,0,0.28);
+  background: linear-gradient(
+    90deg,
+    rgba(246, 79, 89, 0.14),
+    rgba(18, 194, 233, 0.06)
+  );
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.28);
+}
+
+/* Masquer les libellés textuels sur petits écrans, ne garder que les emojis */
+@media (max-width: 600px) {
+  .site-nav ul {
+    gap: 10px;
+  }
+  .site-nav a {
+    padding: 8px;
+    font-size: 1.4rem; /* agrandir un peu les emojis */
+  }
+  .site-nav a .nav-label {
+    display: none;
+  }
 }

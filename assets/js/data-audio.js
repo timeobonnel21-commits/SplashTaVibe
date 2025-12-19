@@ -55,19 +55,20 @@ export const data = [
     category: `ACID`,
     cover: "https://i.scdn.co/image/ab67616d0000b27337d8edae9f22963c480e8729",
   },
-    {
+  {
     title: `Ma direction`,
     src: `sextion.mp3`,
     category: `RAP ancien`,
     cover: "https://i.scdn.co/image/ab67616d0000b27381e6951f23e0a64449c9e975",
   },
-    {
+  {
     title: `Sexion d'assaut - Désolé`,
     src: `ma-direction.mp3`,
     category: `rap ancien`,
-    cover: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYj8inhNlBfUhCyrbkdR-KncYEfVeOv0W7bA&s",
+    cover:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYj8inhNlBfUhCyrbkdR-KncYEfVeOv0W7bA&s",
   },
-    {
+  {
     title: `Sexion d'assaut - Wati by night`,
     src: `wati-by-night.mp3`,
     category: `rap ancien`,

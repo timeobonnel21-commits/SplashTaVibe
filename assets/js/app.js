@@ -1,12 +1,14 @@
 import { data } from "./data-audio.js";
-const year= new Date().getFullYear()
-document.querySelector("#year").textContent = year
+const year = new Date().getFullYear();
+document.querySelector("#year").textContent = year;
 
 const version = "v.1.1.0";
 document.getElementById("version").textContent = version;
 
 const author = `Timéo`;
-console.log(`T'es bien curieux toi ! passes ton chemin, sinon je te hack. "citation de ${author} "`);
+console.log(
+  `T'es bien curieux toi ! passes ton chemin, sinon je te hack. "citation de ${author} "`
+);
 
 // console.table(data);
 
